@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>My App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Random</h1>
+                    <p>
+                        Summera
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <label for="d" class="form-label">tal x</label>
+                <select class="form-select" aria-label="Default select example" id="x">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+            </div>
+
+            <div class="row">
+                <label for="e" class="form-label">tal y</label>
+                <select class="form-select" aria-label="Default select example" id="y">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+            </div>
+            
+           <button id="summera" class="btn btn-primary mt-3" >OK</button>
+           <div class=" alert alert-secondary mt-3">
+            <h4 class="alert-heading">Ditt slump tal var:</h4>
+            <p id="slumptal"></p>
+           </div>
+           <div id="summa" class="alert alert-primary mt-3">
+               0
+           </div>
+          </div>
+       <script src="app.js"></script>
+    </body>
+</html>
